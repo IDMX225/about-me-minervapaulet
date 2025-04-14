@@ -1,0 +1,30 @@
+body {
+    font-family: Geo;
+    background-color: #5386E6;
+    color: #DC81DB;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Orbitron;
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #40D3DE;
+    border: 2px solid #6214FC;
+    background-color: #E8313A;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
