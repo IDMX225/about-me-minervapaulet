@@ -113,7 +113,7 @@ header {
     #gallery figure,
     #lit figure {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     #video figure{
@@ -130,8 +130,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         font-size: 2rem;
-        margin-left: 1rem;
+        padding: 1rem;
     }
 
     #figure img {
