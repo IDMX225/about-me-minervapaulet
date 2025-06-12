@@ -66,7 +66,7 @@ header {
     text-align: center;
 }
 
-/* Gallery */
+/* Article */
 
 #lit {
     border: 2px solid #6214FC;
@@ -84,6 +84,17 @@ header {
     clear: both;
 }
 
+/* Video */
+
+#video {
+    border: 2px solid #6214FC;
+    margin-bottom: 2rem;
+}
+
+#video figure {
+    text-align: center;
+}
+
 /* Dropcaps */
 
 #lit div p:first-child:first-letter {
@@ -99,12 +110,23 @@ header {
 /* Tablet Size */
 
 @media screen and (min-width: 60em) {
-    figure {
+    #gallery figure,
+    #lit figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    figcaption {
+    #video figure{
+        display: block;
+    }
+
+    #video figcaption{
+        display: block;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    #gallery figcaption {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,7 +134,7 @@ header {
         margin-left: 1rem;
     }
 
-    figure img {
+    #figure img {
         width: 100%;
     }
 
