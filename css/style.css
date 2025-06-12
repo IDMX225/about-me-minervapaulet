@@ -20,8 +20,8 @@ header {
 
 #hero, footer {
     color: #40D3DE;
-    border: 2px solid #6214FC;
-    background-color: #E8313A;
+    font-size: 15pt;
+    border: 2px solid #E8313A;
     text-align: center;
     padding: 10px;
 }
@@ -36,15 +36,21 @@ header {
 
 #bio {
     text-align: center;
+    border: 2px solid #6214FC;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Hobbies */
 
 #hobbies {
-    
+    border: 2px solid #6214FC;
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
 }
 
 #hobbies ul li:nth-child(even) {
