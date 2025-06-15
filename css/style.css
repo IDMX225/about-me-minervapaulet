@@ -2,7 +2,7 @@
 body {
     font-family: Geo;
     background-color: #5386E6;
-    color: #DC81DB;
+    color: #3e043e;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -20,9 +20,9 @@ header {
 }
 
 #hero, footer {
-    color: #40D3DE;
+    color: #012527;
     font-size: 15pt;
-    border: 2px solid #E8313A;
+    border: 2px solid #013033;
     text-align: center;
     padding: 10px;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 #hobbies ul li:nth-child(even) {
-    color: #40D3DE;
+    color: #012527;
 }
 
 /* Gallery */
@@ -264,7 +264,7 @@ header {
 
     legend {
         background-color: #40D3DE;
-        color: #6214FC;
+        color: #3e043e;
         padding: 0.5em;
     }
 
@@ -284,7 +284,7 @@ header {
 
     #contact button {
         background-color: #40D3DE;
-        color: #6214FC;
+        color: #3e043e;
         max-width: 400px;
         width: 50%;
         justify-self: center;

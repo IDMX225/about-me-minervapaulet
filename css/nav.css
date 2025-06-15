@@ -24,7 +24,7 @@ main{
 /* navbar */
 
 .navbar {
-    background-color: #333;
+    background-color: #013033;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@ main{
 
 .logo h1 {
     font-size: 1.2em;
+    color: #a678ff;
 }
 
 /* navigation list */
@@ -67,8 +68,8 @@ main{
 
 .navbar-links a {
 
-    color: whitesmoke;
-    background-color: #333;
+    color: #a678ff;
+    background-color: #013033;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -78,8 +79,8 @@ main{
 
 .navbar-links a:hover, .navbar-links a:focus  {
 
-    color: whitesmoke;
-    background-color: #333;
+    color: #6214FC;
+    background-color: #40D3DE;
     border-radius: 10px;
     outline: none;
 }
