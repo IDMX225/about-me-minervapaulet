@@ -67,8 +67,7 @@
                     classical music playing and a cherry Pepsi by my side. 
                 </p>
                 <p>
-                    There’s something really satisfying about solving complex problems or 
-                    writing code that works just right. I’m also drawn to learning new things all the time, whether that’s through coursework, 
+                    I’m drawn to learning new things all the time, whether that’s through coursework, 
                     tutorials, or projects like this one. 
                 </p>
                 <p>
@@ -92,28 +91,36 @@
                 <li>Playing soccer: It helps me stay active, and I love the teamwork involved.</li>
                 <li>Watching Movies Especially sci-fi and mystery films with my family and dogs.</li>
                 <li>Walking My Dogs One of my favorite parts of the day. They keep me grounded.</li>
-                <li>Playing soccer: It helps me stay active, and I love the teamwork involved.</li>
 
             </ul>
 
         </section>
 
-        <!-- gallery section!: -->
+        <!-- gallery section with image image hover effects: -->
         <section id="gallery">
             <h2>Photo Gallery</h2>
 
             <figure>
-                <img src="img/cartoon-640w.jpg" alt="picture of cartoon.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/cartoon-640w.jpg" alt="picture of cartoon.">
+                <div class="content fade">Laptop is a Asus Rog Zephyrus G14 2024</div>
+                </div>
                 <figcaption>A picture of Spongebob on my Laptop.</figcaption>
             </figure>
 
             <figure>
-                <img src="img/dog-640w.jpg" alt="picture of my dog.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/dog-640w.jpg" alt="picture of my dog.">
+                <div class="content fade">Breed is Chihuahua mix</div>
+                </div>
                 <figcaption>A picture of my dog yawning.</figcaption>
             </figure>
 
             <figure>
-                <img src="img/bible-640w.jpg" alt="picture of bible.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/bible-640w.jpg" alt="picture of bible.">
+                <div class="content fade">Reading a some chapters at night.</div>
+                </div>
                 <figcaption>A picture of the Bible.</figcaption>
             </figure>
             
@@ -122,37 +129,78 @@
 
         <!-- blog section!: -->
         <article id="lit">
-            <h2> How to add Image Hover Effects</h2>
+            <h2>Image Hover Effects</h2>
             <div>
                 <h3>What is it?</h3>
-                <p> An image hover effect is when you take your cursor over an image and text(or something of your choice) 
-                    appears over it.
-                    
-                    Ensign, report to the sick bay immediately. Revenge is a dish best served cold. Live long and prosper. 
-                    Main power to backup systems. Shut up, Wesley. Shields down, blue alert. There be whales here. Revenge 
-                    is a dish best served cold. Shields up, orange alert. Lieutenant to engine room, report. I'm a Doctor, 
-                    not a peeping tom. Set phasers to stun and regroup. I'm a Doctor, not a mechanic. Highly illogical, doctor. 
-                    I'm a Doctor, not a botanist. Lieutenant, report to the sick bay immediately. Set phasers to maximum and retreat.</p>
+                <p> Image hover effects are a type of animation in CSS that allow you to transform an image simply by hovering 
+                    over it with your mouse. There are many kinds of hover effects you can apply. In my project, I implemented 
+                    several styles including blur with text overlay, zoom and blur, slide-in effects from the left, right, top, 
+                    and bottom combined with a blur. These effects add interactivity and visual appeal to a website, making the 
+                    user experience more engaging. To the right I added some examples: 
+                </p>
+                <h3>How does it work?</h3>
+                <p> The :hover pseudo-class is triggered when a user moves their cursor over an element, such as an image. 
+                    A pseudo-class is used in CSS to define a special state of an element. In my project, I used :hover to apply 
+                    various styles when an image is hovered over, but there are many other pseudo-classes available. For example, 
+                    you can style visited and unvisited links differently (:visited, :link), style an element when it receives focus 
+                    (:focus), style form elements based on their validation status (:valid, :invalid, :required, :optional) and much more.
+                </p>
 
-                <p>Captain to mess hall, report. All power to weapons. Beam me up, Scotty. Set phasers to kill and attack. 
-                    I'm a Doctor, not a bartender. Doctor, there are Cardassians to starboard. I am not a merry man. Sensors 
-                    detect a distortion in space-time to aft. Live long and prosper. Primary power to shields. There be whales 
-                    here. Blue alert, fire torpedoes. Sensors detect a gravimetric distortion to starboard. Commander, report to the 
-                    engine room immediately. Sensors detect a wibbly wobbly swirly thing in space to aft. Set course for Deep 
-                    Space Nine and engage at warp two. Live long and prosper. Orange alert, fire phasers.</p>
+                <p> I used several CSS properties in my hover effects, including transform, filter, and opacity. The transform 
+                    property allows you to rotate, scale, move, and skew elements, but in my case, images. The filter property 
+                    enables you to apply visual effects like blur or grayscale. Additionally, the opacity property controls 
+                    the transparency of an element, which is useful for creating fade-in and fade-out effects.
+                </p>
+                <h3>What are and how to use CSS Transitions?</h3>
+                <p> CSS transitions are what let you change property values smoothly over a given duration. So, what that means is 
+                    that it allows elements to gradually change from one style to another instead of happening instantly. For example, 
+                    you can make a button slowly change color when hovered over, or make an image zoom in smoothly.
+                </p>
+                <h3>How are Image Hover Effects useful?</h3>
+                <p> Hover effects are really helpful when it comes to making a website more interactive. They let users know that something 
+                    on the page can be clicked or interacted with. For example, when you hover over a product and it zooms in or shows more 
+                    info, that tells the user it’s important. It also makes the site look more modern and clean without using a lot of 
+                    complicated code like JavaScript. Adding small effects like this keeps users more engaged and can make their experience 
+                    on the site feel smoother and more fun.
+                </p>
 
-                <p>Sensors detect a hole in space to starboard. Captain to sick bay, report. Shields down, red alert. Beam me up, 
-                    Chief. Shut up, Wesley. Doctor, report to the mess hall immediately. I'm a Doctor, not a bricklayer. Set phasers 
-                    to maximum and regroup. Sensors detect a presence to port. Highly illogical, commander. All power to life support. 
-                    Blue alert, fire torpedoes. Set phasers to stun and retreat. Resistance is futile. Sensors detect a distortion in 
-                    space-time to aft.</p>
+                    <!-- div size for image hover effects -->
+                    <div class= "grid"> 
+                        <div class="img-wrapper">
+                            <img class= "blur" src="https://picsum.photos/500?random=1">
+                            <div class="content fade">This is Blur</div>
+                        </div>
 
-                <p>There be whales here. Doctor, report to the engine room immediately. Orange alert, fire phasers. Shut up, 
-                    Wesley. Beam me up, O'Brian. Set phasers to fabulous and attack. There be whales here. Secondary power to 
-                    weapons. Commander, report to the mess hall immediately. Shut up, Wesley. Set course for Vulcan and engage 
-                    at warp three.</p>
+                        <div class="img-wrapper">
+                            <img class="zoom blur" src="https://picsum.photos/500?random=2">
+                            <div class="content fade">This is Zoom and Blur.</div>
+                        </div>
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=3">
+                            <div class="content slide-left">This is slide Left and Blur</div>
+                        </div>
 
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=4">
+                            <div class="content slide-right">This is slide Right and Blur</div>
+                        </div>
 
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=5">
+                            <div class="content slide-up">This is slide Up and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=6">
+                            <div class="content slide-down">This is slide Down and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="gray" src="https://picsum.photos/500?random=7">
+                            <div class="content slide-down"> This is Grayscale and slide Down</div>
+                        </div>
+
+                    </div>
             </div>
         </article>
 
