@@ -43,9 +43,9 @@ Managed and published code using GitHub.
 # Color Scheme
 The color combinations were selected not only for visual appeal but also to meet color contrast and accessibility standards. Key interactive elements (like navigation links and buttons) feature high contrast colors for readability, especially for users with visual impairments.
 
-| Purpose / Element                    | Color Example | Hex Code   | RGB Value             |
+| Purpose / Element                   | Color Example  | Hex Code  | RGB Value             |
 |-------------------------------------|----------------|------------------------------------|
-| **Main Background** (body)          | [#5386E6]      | `#5386E6` | `rgb(83, 134, 230)`  |
+| **Main Background** (body)          | ![#5386E6]     | `#5386E6` | `rgb(83, 134, 230)`  |
 | **Primary Text**                    | ![#3E043E]     | `#3E043E` | `rgb(62, 4, 62)`     |
 | **Hero & Section Text**             | ![#012527]     | `#012527` | `rgb(1, 37, 39)`     |
 | **Borders (Hero/Footer)**           | ![#013033]     | `#013033` | `rgb(1, 48, 51)`     |
@@ -82,11 +82,12 @@ The navigation bar allows users to quickly jump to different sections of the pag
 
 | Element               | Color Example  | Hex Code  | Purpose                       |
 | --------------------- | ---------------| --------- | ----------------------------- |
-| **Navbar Background** | [`#013033`]    | `#013033` | Deep teal for contrast        |
+| **Navbar Background** | ![#013033]     | `#013033` | Deep teal for contrast        |
 | **Link Text**         | ![#A678FF]     | `#A678FF` | Vibrant purple for visibility |
 | **Link Hover**        | ![#6214FC]     | `#6214FC` | Violet hover accent           |
 | **Hover Background**  | ![#40D3DE]     | `#40D3DE` | Teal background for feedback  |
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 ### Accessibility
 Keyboard Navigation: Links are accessible via Tab and show a visible hover/focus style.
