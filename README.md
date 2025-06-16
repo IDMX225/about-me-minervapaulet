@@ -45,7 +45,7 @@ The color combinations were selected not only for visual appeal but also to meet
 
 | Purpose / Element                    | Color Example | Hex Code   | RGB Value             |
 |-------------------------------------|----------------|------------------------------------|
-| **Main Background** (body)          | #5386E6      | `#5386E6` | `rgb(83, 134, 230)`  |
+| **Main Background** (body)          | [#5386E6]      | `#5386E6` | `rgb(83, 134, 230)`  |
 | **Primary Text**                    | ![#3E043E]     | `#3E043E` | `rgb(62, 4, 62)`     |
 | **Hero & Section Text**             | ![#012527]     | `#012527` | `rgb(1, 37, 39)`     |
 | **Borders (Hero/Footer)**           | ![#013033]     | `#013033` | `rgb(1, 48, 51)`     |
