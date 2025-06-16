@@ -65,6 +65,14 @@ Source: Google Fonts
 Geo: A geometric, clean font used for body text.
 Source: Google Fonts
 
+#### Blog
+1 - How To Create An Image Hover Effect With CSS
+https://www.youtube.com/watch?v=tF3RE5CGt9U&t=397s
+2 - How TO - Image Hover Overlay, W3Schools
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
+3 - Change Image on Hover with HTML and CSS
+https://cloudinary.com/guides/front-end-development/change-image-on-hover-with-html-and-css
+
 ### Avatar
 Avataaars Generator – Used to create the avatar image shown in the hero section.
 Picsum - Used to generate random photos
