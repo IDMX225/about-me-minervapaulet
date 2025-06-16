@@ -42,6 +42,15 @@ header {
     margin-bottom: 2rem;
 }
 
+.profile-pic {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 1rem auto;
+}
+
 /* Hobbies */
 
 #hobbies {

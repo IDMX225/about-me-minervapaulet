@@ -41,18 +41,18 @@ Used media queries to create layouts for tablet and desktop sizes.
 Managed and published code using GitHub.
 
 # Color Scheme
-This site uses a modern, tech-inspired color palette with deep backgrounds and vibrant accents. The color combinations were selected not only for visual appeal but also to meet color contrast and accessibility standards. Key interactive elements (like navigation links and buttons) feature high contrast colors for readability, especially for users with visual impairments.
+The color combinations were selected not only for visual appeal but also to meet color contrast and accessibility standards. Key interactive elements (like navigation links and buttons) feature high contrast colors for readability, especially for users with visual impairments.
 
-| Purpose / Element                    | Color Example                                                | Hex Code   | RGB Value             |
-|-------------------------------------|--------------------------------------------------------------|------------|------------------------|
-| **Main Background** (body)          | ![#5386E6](https://via.placeholder.com/20/5386E6/000000?text=+) | `#5386E6` | `rgb(83, 134, 230)`    |
-| **Primary Text**                    | ![#3E043E](https://via.placeholder.com/20/3E043E/000000?text=+) | `#3E043E` | `rgb(62, 4, 62)`       |
-| **Hero & Section Text**             | ![#012527](https://via.placeholder.com/20/012527/000000?text=+) | `#012527` | `rgb(1, 37, 39)`        |
-| **Borders (Hero/Footer)**           | ![#013033](https://via.placeholder.com/20/013033/000000?text=+) | `#013033` | `rgb(1, 48, 51)`        |
-| **Dropcap Accent**                  | ![#E8313A](https://via.placeholder.com/20/E8313A/000000?text=+) | `#E8313A` | `rgb(232, 49, 58)`      |
-| **Highlight Violet** (Hover/Borders)| ![#6214FC](https://via.placeholder.com/20/6214FC/000000?text=+) | `#6214FC` | `rgb(98, 20, 252)`      |
-| **Form & Button Accent**            | ![#40D3DE](https://via.placeholder.com/20/40D3DE/000000?text=+) | `#40D3DE` | `rgb(64, 211, 222)`     |
-| **Navbar Link Text**                | ![#A678FF](https://via.placeholder.com/20/A678FF/000000?text=+) | `#A678FF` | `rgb(166, 120, 255)`    |
+| Purpose / Element                    | Color Example | Hex Code   | RGB Value             |
+|-------------------------------------|----------------|------------------------------------|
+| **Main Background** (body)          | #5386E6      | `#5386E6` | `rgb(83, 134, 230)`  |
+| **Primary Text**                    | ![#3E043E]     | `#3E043E` | `rgb(62, 4, 62)`     |
+| **Hero & Section Text**             | ![#012527]     | `#012527` | `rgb(1, 37, 39)`     |
+| **Borders (Hero/Footer)**           | ![#013033]     | `#013033` | `rgb(1, 48, 51)`     |
+| **Dropcap Accent**                  | ![#E8313A]     | `#E8313A` | `rgb(232, 49, 58)`   |
+| **Highlight Violet** (Hover/Borders)| ![#6214FC]     | `#6214FC` | `rgb(98, 20, 252)`   |
+| **Form & Button Accent**            | ![#40D3DE]     | `#40D3DE` | `rgb(64, 211, 222)`  |
+| **Navbar Link Text**                | ![#A678FF]     | `#A678FF` | `rgb(166, 120, 255)` |
 
 
 # Citations
@@ -72,26 +72,20 @@ License: Free for personal and educational use.
 ### Placeholder Text
 Star Trek Ipsum – Used as fun placeholder text in the blog section.
 
-### Video Embed
-YouTube Video:
-URL: https://www.youtube.com/watch?v=Fbs9YxBXMok
-Content: A short video I created about my dogs.
-
-### Images
-All images used in the gallery (e.g., cartoon screenshot, dog photo, Bible photo) were created or photographed by me.
+### Images and Videos
+All images and videos used in the gallery and "A Short Video" (e.g., cartoon screenshot, dog photo, Bible photo) were created or photographed by me.
 All other code, text, and media not listed above was created by me, Minerva Paulet.
 
 # Nav Bar
-The navigation bar is an essential part of the website, allowing users to quickly jump to different sections of the page. It is fully responsive and styled using Flexbox and media queries to adapt across mobile, tablet, and desktop screen sizes.
+The navigation bar allows users to quickly jump to different sections of the page. It is fully responsive and styled using Flexbox and media queries to adapt across mobile, tablet, and desktop screen sizes.
 
 
-🎨 Color Choices
-| Element               | Color Example                                                   | Hex Code  | Purpose                       |
-| --------------------- | --------------------------------------------------------------- | --------- | ----------------------------- |
-| **Navbar Background** | ![#013033](https://via.placeholder.com/20/013033/000000?text=+) | `#013033` | Deep teal for contrast        |
-| **Link Text**         | ![#A678FF](https://via.placeholder.com/20/A678FF/000000?text=+) | `#A678FF` | Vibrant purple for visibility |
-| **Link Hover**        | ![#6214FC](https://via.placeholder.com/20/6214FC/000000?text=+) | `#6214FC` | Violet hover accent           |
-| **Hover Background**  | ![#40D3DE](https://via.placeholder.com/20/40D3DE/000000?text=+) | `#40D3DE` | Teal background for feedback  |
+| Element               | Color Example  | Hex Code  | Purpose                       |
+| --------------------- | ---------------| --------- | ----------------------------- |
+| **Navbar Background** | ![#013033]     | `#013033` | Deep teal for contrast        |
+| **Link Text**         | ![#A678FF]     | `#A678FF` | Vibrant purple for visibility |
+| **Link Hover**        | ![#6214FC]     | `#6214FC` | Violet hover accent           |
+| **Hover Background**  | ![#40D3DE]     | `#40D3DE` | Teal background for feedback  |
 
 
 ### Accessibility
