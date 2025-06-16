@@ -82,7 +82,7 @@ The navigation bar allows users to quickly jump to different sections of the pag
 
 | Element               | Color Example  | Hex Code  | Purpose                       |
 | --------------------- | ---------------| --------- | ----------------------------- |
-| **Navbar Background** | ![#013033]     | `#013033` | Deep teal for contrast        |
+| **Navbar Background** | ![`#013033`]   | `#013033` | Deep teal for contrast        |
 | **Link Text**         | ![#A678FF]     | `#A678FF` | Vibrant purple for visibility |
 | **Link Hover**        | ![#6214FC]     | `#6214FC` | Violet hover accent           |
 | **Hover Background**  | ![#40D3DE]     | `#40D3DE` | Teal background for feedback  |
