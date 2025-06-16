@@ -13,7 +13,7 @@ Used Flexbox to build a responsive navbar.
 Linked navigation to page sections with smooth scrolling.
 
 ### Hero Section
-Embedded profile image and location using semantic HTML.
+Embedded profile image and location using HTML.
 
 ### Biography & Hobbies
 Applied CSS styling and border techniques.
@@ -43,17 +43,17 @@ Managed and published code using GitHub.
 # Color Scheme
 This site uses a modern, tech-inspired color palette with deep backgrounds and vibrant accents. The color combinations were selected not only for visual appeal but also to meet color contrast and accessibility standards. Key interactive elements (like navigation links and buttons) feature high contrast colors for readability, especially for users with visual impairments.
 
-| Purpose / Element                     | Color Example                                                   | Hex Code  | RGB Value            |
-| ------------------------------------- | --------------------------------------------------------------- | --------- | -------------------- |
-| **Main Background** (body)            | ![#5386E6](https://via.placeholder.com/20/5386E6/000000?text=+) | `#5386E6` | `rgb(83, 134, 230)`  |
-| **Primary Text**                      | ![#3E043E](https://via.placeholder.com/20/3E043E/000000?text=+) | `#3E043E` | `rgb(62, 4, 62)`     |
-| **Section Text (Hero, Hobbies)**      | ![#012527](https://via.placeholder.com/20/012527/000000?text=+) | `#012527` | `rgb(1, 37, 39)`     |
-| **Border Color (Hero, Footer)**       | ![#013033](https://via.placeholder.com/20/013033/000000?text=+) | `#013033` | `rgb(1, 48, 51)`     |
-| **Accent Red (Dropcap Letter)**       | ![#E8313A](https://via.placeholder.com/20/E8313A/000000?text=+) | `#E8313A` | `rgb(232, 49, 58)`   |
-| **Highlight Violet (Borders, Hover)** | ![#6214FC](https://via.placeholder.com/20/6214FC/000000?text=+) | `#6214FC` | `rgb(98, 20, 252)`   |
-| **Teal Accent (Buttons, Hover)**      | ![#40D3DE](https://via.placeholder.com/20/40D3DE/000000?text=+) | `#40D3DE` | `rgb(64, 211, 222)`  |
-| **Navbar Background**                 | ![#013033](https://via.placeholder.com/20/013033/000000?text=+) | `#013033` | `rgb(1, 48, 51)`     |
-| **Navbar Link Text**                  | ![#A678FF](https://via.placeholder.com/20/A678FF/000000?text=+) | `#A678FF` | `rgb(166, 120, 255)` |
+| Purpose / Element                    | Color Example                                                | Hex Code   | RGB Value             |
+|-------------------------------------|--------------------------------------------------------------|------------|------------------------|
+| **Main Background** (body)          | ![#5386E6](https://via.placeholder.com/20/5386E6/000000?text=+) | `#5386E6` | `rgb(83, 134, 230)`    |
+| **Primary Text**                    | ![#3E043E](https://via.placeholder.com/20/3E043E/000000?text=+) | `#3E043E` | `rgb(62, 4, 62)`       |
+| **Hero & Section Text**             | ![#012527](https://via.placeholder.com/20/012527/000000?text=+) | `#012527` | `rgb(1, 37, 39)`        |
+| **Borders (Hero/Footer)**           | ![#013033](https://via.placeholder.com/20/013033/000000?text=+) | `#013033` | `rgb(1, 48, 51)`        |
+| **Dropcap Accent**                  | ![#E8313A](https://via.placeholder.com/20/E8313A/000000?text=+) | `#E8313A` | `rgb(232, 49, 58)`      |
+| **Highlight Violet** (Hover/Borders)| ![#6214FC](https://via.placeholder.com/20/6214FC/000000?text=+) | `#6214FC` | `rgb(98, 20, 252)`      |
+| **Form & Button Accent**            | ![#40D3DE](https://via.placeholder.com/20/40D3DE/000000?text=+) | `#40D3DE` | `rgb(64, 211, 222)`     |
+| **Navbar Link Text**                | ![#A678FF](https://via.placeholder.com/20/A678FF/000000?text=+) | `#A678FF` | `rgb(166, 120, 255)`    |
+
 
 # Citations
 Below is a list of all third-party resources used in this project that I did not create myself:
