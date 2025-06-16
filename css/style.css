@@ -234,13 +234,13 @@ header {
 }
 
 #image-hover .grid {
-    border: 2px solid #6214FC;
-    margin-bottom: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #6214FC;
 }
 
 
@@ -343,6 +343,14 @@ header {
         grid-template-columns: 1fr 1fr;
     }
 
+    #image-hover .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        justify-items: center;
+        padding: 2rem;
+    }
+
     #video figure {
         display: block;
     }
@@ -390,6 +398,10 @@ header {
     font-size: 1.5rem;
     margin-top: 0.5rem;
     text-align: center;
+    }
+
+    #image-hover .grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }
