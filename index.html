@@ -20,7 +20,7 @@
         <!-- the header shows logo and the page title -->
         <nav class="navbar">
             <div class="logo">
-                <img src="img/logo-96X96.svg" alt="Blue origami logo">
+                <img src="img/favicon.svg" alt="Blue origami logo">
                 <h1> Web Dev I</h1>
             </div>
             <div class="navbar-links">
@@ -53,84 +53,160 @@
 
             <h2>Biography:</h2>
 
-             <div>
-                
-                <p>I want to be...</p>
-                <p>A cybersecurity engineer</p>
-                <p>My favorite way to work is...</p>
-                <p>some classical music playing in the background and a cherry pepsi.</p>
-                <p>In my free time, I like to...</p>
-                <p>play mobile games, walk my dogs, and watch movies with my family.</p>
+            <img src="img/profile_pic.jpg" alt="Picture of me"class="profile-pic">
 
+             <div>
+                <p>
+                    Hi, I’m Minerva Paulet, a passionate student and aspiring cybersecurity engineer based in New Jersey. 
+                    I’m currently studying Computer Science and Networking, and I’m especially interested in digital forensics, ethical hacking, 
+                    and protecting people online. 
+                </p>
+                <p>
+                    My curiosity for technology started at a young age, but it truly took off once I realized how 
+                    much good it could do when used to defend and inform others. I enjoy working in calm, focused environments, usually with some 
+                    classical music playing and a cherry Pepsi by my side. 
+                </p>
+                <p>
+                    I’m drawn to learning new things all the time, whether that’s through coursework, 
+                    tutorials, or projects like this one. 
+                </p>
+                <p>
+                    My long-term goal is to work in national security, contributing 
+                    to a safer digital world. I’m also passionate about making tech more accessible and inclusive for others. Outside of school 
+                    and tech, I’m someone who values kindness, growth, and meaningful connection. This site is a glimpse into who I am, and how 
+                    I use both logic and creativity to build something meaningful.
+                </p>
              </div>
 
         </section>
-
+        
+        <!-- hobbies section!: -->
         <section id="hobbies">
             <h2>Hobbies:</h2>
             <ul>
 
-                <li>Playing mobile games</li>
-                <li>Reading</li>
-                <li>Coding</li>
-                <li>Playing soccer</li>
+                <li>Playing mobile games: They keep my mind sharp and give me a fun break from academics.</li>
+                <li>Reading: Especially psychology and tech-related books. I love learning how people think.</li>
+                <li>Coding: I enjoy building small tools or websites that help me learn and experiment.</li>
+                <li>Playing soccer: It helps me stay active, and I love the teamwork involved.</li>
+                <li>Watching Movies Especially sci-fi and mystery films with my family and dogs.</li>
+                <li>Walking My Dogs One of my favorite parts of the day. They keep me grounded.</li>
 
             </ul>
 
         </section>
 
+        <!-- gallery section with image image hover effects: -->
         <section id="gallery">
             <h2>Photo Gallery</h2>
 
             <figure>
-                <img src="img/cartoon-640w.jpg" alt="picture of cartoon.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/cartoon-640w.jpg" alt="picture of cartoon.">
+                <div class="content fade">Laptop is a Asus Rog Zephyrus G14 2024</div>
+                </div>
                 <figcaption>A picture of Spongebob on my Laptop.</figcaption>
             </figure>
 
             <figure>
-                <img src="img/dog-640w.jpg" alt="picture of my dog.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/dog-640w.jpg" alt="picture of my dog.">
+                <div class="content fade">Breed is Chihuahua mix</div>
+                </div>
                 <figcaption>A picture of my dog yawning.</figcaption>
             </figure>
 
             <figure>
-                <img src="img/bible-640w.jpg" alt="picture of bible.">
+                <div class="img-wrapper">
+                <img class="zoom blur" src="img/bible-640w.jpg" alt="picture of bible.">
+                <div class="content fade">Reading some chapters at night.</div>
+                </div>
                 <figcaption>A picture of the Bible.</figcaption>
             </figure>
             
 
         </section>
 
+        <!-- blog section!: -->
         <article id="lit">
-            <h2> Star Trek Ipsum</h2>
+            <h2>Image Hover Effects</h2>
             <div>
+                <h3>What is it?</h3>
+                <p> Image hover effects are a type of animation in CSS that allow you to transform an image simply by hovering 
+                    over it with your mouse. There are many kinds of hover effects you can apply. In my project, I implemented 
+                    several styles including blur with text overlay, zoom and blur, slide-in effects from the left, right, top, 
+                    and bottom combined with a blur. These effects add interactivity and visual appeal to a website, making the 
+                    user experience more engaging. To the bottom, I added some examples.
+                </p>
+                <h3>How does it work?</h3>
+                <p> The :hover pseudo-class is triggered when a user moves their cursor over an element, such as an image. 
+                    A pseudo-class is used in CSS to define a special state of an element. In my project, I used :hover to apply 
+                    various styles when an image is hovered over, but there are many other pseudo-classes available. For example, 
+                    you can style visited and unvisited links differently (:visited, :link), style an element when it receives focus 
+                    (:focus), style form elements based on their validation status (:valid, :invalid, :required, :optional) and much more.
+                </p>
 
-                <p>Ensign, report to the sick bay immediately. Revenge is a dish best served cold. Live long and prosper. 
-                    Main power to backup systems. Shut up, Wesley. Shields down, blue alert. There be whales here. Revenge 
-                    is a dish best served cold. Shields up, orange alert. Lieutenant to engine room, report. I'm a Doctor, 
-                    not a peeping tom. Set phasers to stun and regroup. I'm a Doctor, not a mechanic. Highly illogical, doctor. 
-                    I'm a Doctor, not a botanist. Lieutenant, report to the sick bay immediately. Set phasers to maximum and retreat.</p>
+                <p> I used several CSS properties in my hover effects, including transform, filter, and opacity. The transform 
+                    property allows you to rotate, scale, move, and skew elements, but in my case, images. The filter property 
+                    enables you to apply visual effects like blur or grayscale. Additionally, the opacity property controls 
+                    the transparency of an element, which is useful for creating fade-in and fade-out effects.
+                </p>
+                <h3>What are and how to use CSS Transitions?</h3>
+                <p> CSS transitions are what let you change property values smoothly over a given duration. So, what that means is 
+                    that it allows elements to gradually change from one style to another instead of happening instantly. For example, 
+                    you can make a button slowly change color when hovered over, or make an image zoom in smoothly.
+                </p>
+                <h3>How are Image Hover Effects useful?</h3>
+                <p> Hover effects are really helpful when it comes to making a website more interactive. They let users know that something 
+                    on the page can be clicked or interacted with. For example, when you hover over a product and it zooms in or shows more 
+                    info, that tells the user it’s important. It also makes the site look more modern and clean without using a lot of 
+                    complicated code like JavaScript. Adding small effects like this keeps users more engaged and can make their experience 
+                    on the site feel smoother and more fun.
+                </p>
 
-                <p>Captain to mess hall, report. All power to weapons. Beam me up, Scotty. Set phasers to kill and attack. 
-                    I'm a Doctor, not a bartender. Doctor, there are Cardassians to starboard. I am not a merry man. Sensors 
-                    detect a distortion in space-time to aft. Live long and prosper. Primary power to shields. There be whales 
-                    here. Blue alert, fire torpedoes. Sensors detect a gravimetric distortion to starboard. Commander, report to the 
-                    engine room immediately. Sensors detect a wibbly wobbly swirly thing in space to aft. Set course for Deep 
-                    Space Nine and engage at warp two. Live long and prosper. Orange alert, fire phasers.</p>
-
-                <p>Sensors detect a hole in space to starboard. Captain to sick bay, report. Shields down, red alert. Beam me up, 
-                    Chief. Shut up, Wesley. Doctor, report to the mess hall immediately. I'm a Doctor, not a bricklayer. Set phasers 
-                    to maximum and regroup. Sensors detect a presence to port. Highly illogical, commander. All power to life support. 
-                    Blue alert, fire torpedoes. Set phasers to stun and retreat. Resistance is futile. Sensors detect a distortion in 
-                    space-time to aft.</p>
-
-                <p>There be whales here. Doctor, report to the engine room immediately. Orange alert, fire phasers. Shut up, 
-                    Wesley. Beam me up, O'Brian. Set phasers to fabulous and attack. There be whales here. Secondary power to 
-                    weapons. Commander, report to the mess hall immediately. Shut up, Wesley. Set course for Vulcan and engage 
-                    at warp three.</p>
-
-
+                    
             </div>
         </article>
+
+        <!-- image hover effects section: -->
+        <section id="image-hover">
+                    <div class= "grid"> 
+                        <div class="img-wrapper">
+                            <img class= "blur" src="https://picsum.photos/500?random=1">
+                            <div class="content fade">This is Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="zoom blur" src="https://picsum.photos/500?random=2">
+                            <div class="content fade">This is Zoom and Blur.</div>
+                        </div>
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=3">
+                            <div class="content slide-left">This is slide Left and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=4">
+                            <div class="content slide-right">This is slide Right and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=5">
+                            <div class="content slide-up">This is slide Up and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="blur" src="https://picsum.photos/500?random=6">
+                            <div class="content slide-down">This is slide Down and Blur</div>
+                        </div>
+
+                        <div class="img-wrapper">
+                            <img class="gray" src="https://picsum.photos/500?random=7">
+                            <div class="content slide-down"> This is Grayscale and slide Down</div>
+                        </div>
+
+                    </div>
+        </section>     
 
         <section id="video">
             <h2>A Short Video:</h2>
@@ -215,6 +291,7 @@
     <footer>
 
         ©2025 - Minerva Paulet
+        <a href="https://github.com/IDMX225/about-me-minervapaulet">| Github Repo </a>
 
     </footer>
 

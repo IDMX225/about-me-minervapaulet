@@ -15,6 +15,10 @@ h2 {
     margin: .1em;
 }
 
+h3 {
+    font-size: 12pt;
+}
+
 header {
     text-align: center;
 }
@@ -40,6 +44,15 @@ header {
     border: 2px solid #6214FC;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 1rem auto;
 }
 
 /* Hobbies */
@@ -135,6 +148,144 @@ header {
     border: 0;
 }
 
+/* Image Hover Effect */
+.img-wrapper {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.img-wrapper > img, 
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > img.blur {
+    filter: blur(5px);
+}
+
+.img-wrapper:hover > img.gray {
+    filter: grayscale(1);
+}
+
+.img-wrapper:hover > img.zoom {
+    transform: scale(1.1);
+}
+
+.img-wrapper > .content.fade {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .content.fade {
+    opacity: 1;
+}
+
+.img-wrapper > .content.slide-left {
+    transform: translateX(-100%);
+}
+
+.img-wrapper:hover > .content.slide-left {
+    transform: translateX(0);
+}
+
+.img-wrapper > .content.slide-right {
+    transform: translateX(100%);
+}
+
+.img-wrapper:hover > .content.slide-right {
+    transform: translateX(0);
+}
+
+.img-wrapper > .content.slide-down {
+    transform: translateY(-100%);
+}
+
+.img-wrapper:hover > .content.slide-down {
+    transform: translateY(0);
+}
+
+.img-wrapper > .content.slide-up {
+    transform: translateY(100%);
+}
+
+.img-wrapper:hover > .content.slide-up {
+    transform: translateY(0);
+}
+
+#image-hover .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #6214FC;
+}
+
+
+/* Image Hover Effect Gallery */
+#gallery .img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+#gallery .img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#gallery .img-wrapper .content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+#gallery .img-wrapper:hover img.blur {
+  filter: blur(5px);
+}
+
+#gallery .img-wrapper:hover img.zoom {
+  transform: scale(1.05);
+}
+
+#gallery .img-wrapper:hover .content.fade {
+  opacity: 1;
+}
+
 
 /* Dropcaps */
 
@@ -192,6 +343,14 @@ header {
         grid-template-columns: 1fr 1fr;
     }
 
+    #image-hover .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        justify-items: center;
+        padding: 2rem;
+    }
+
     #video figure {
         display: block;
     }
@@ -239,6 +398,10 @@ header {
     font-size: 1.5rem;
     margin-top: 0.5rem;
     text-align: center;
+    }
+
+    #image-hover .grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }
