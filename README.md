@@ -67,6 +67,7 @@ Source: Google Fonts
 
 ### Avatar
 Avataaars Generator – Used to create the avatar image shown in the hero section.
+Picsum - Used to generate random photos
 License: Free for personal and educational use.
 
 ### Placeholder Text
@@ -86,8 +87,6 @@ The navigation bar allows users to quickly jump to different sections of the pag
 | **Link Text**         | ![#A678FF]     | `#A678FF` | Vibrant purple for visibility |
 | **Link Hover**        | ![#6214FC]     | `#6214FC` | Violet hover accent           |
 | **Hover Background**  | ![#40D3DE]     | `#40D3DE` | Teal background for feedback  |
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 ### Accessibility
 Keyboard Navigation: Links are accessible via Tab and show a visible hover/focus style.
